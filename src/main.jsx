@@ -7,21 +7,15 @@ import { UserProvider } from './context/UserContext'
 import { ProductProvider } from './context/ProductContext'
 import { CartProvider } from './context/CartContext'
 
-export const server = "https://ecommerce-server-qmyh.onrender.com";
+export const server = "http://localhost:5000";
 
 export const categories =[
-  "Young",
-  "big tits",
-  "mylf",
-  "silicone tits",
-  "asian",
-  "latina",
-  "ebony",
-  "perfect body",
-  "indian",
-  "desi",
-  "korena",
-  "russian"
+  "Suv",
+  "Sedan",
+  "luxury", 
+  "sports",
+  "Hatchback",
+  "convertible",
 ]
 
 createRoot(document.getElementById('root')).render(

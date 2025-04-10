@@ -16,9 +16,9 @@ const Hero = ({navigate}) => {
                     Welcome to your dream shop
                 </h1>
                 <p className="text-lg sm:text-2xl mb-8">
-                    Discover amazing products and deals just for you
+                    Discover amazing cars and deals just for you
                 </p>
-                <Button onClick={()=>navigate("/products")} size="lg">Shop Now</Button>
+                <Button onClick={()=>navigate("/products")} size="lg">Explore Now</Button>
             </div>
         </div>
     </div>
