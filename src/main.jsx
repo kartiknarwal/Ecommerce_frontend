@@ -7,7 +7,8 @@ import { UserProvider } from './context/UserContext'
 import { ProductProvider } from './context/ProductContext'
 import { CartProvider } from './context/CartContext'
 
-export const server = "http://localhost:5000";
+// export const server = "http://localhost:5000";
+export const server ="https://ecommerce-server-1-1k2i.onrender.com"
 
 export const categories =[
   "Suv",
