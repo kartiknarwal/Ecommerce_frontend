@@ -5,6 +5,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
 import { ModeToggle } from './mode-toggle'
 import { UserData } from '@/context/UserContext'
 import { CartData } from '@/context/CartContext'
+import ThreeBackground from './ThreeBackground'
 
 const Navbar = () => {
     const navigate =useNavigate();
@@ -19,6 +20,7 @@ const Navbar = () => {
 
   return (
     <div className='z-50 sticky top-0 bg-background/50 border-b backdrop-blur'>
+        <ThreeBackground/>
         <div className="container mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between">
             <h1 className='text-2xl font-bold'>QuickCart</h1>
             <ul className='flex justify-center items-center space-x-6' >
